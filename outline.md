@@ -14,9 +14,11 @@ Shiyu Liu, Sibo Zhou, Junhui Huang
 - One of the closely related works is AnimeGAN (Chen et al., 2020), which applies GAN to transform real-world photos into anime-style images. Like CartoonGAN, AnimeGAN trains on unpaired datasets of photos and anime frames but introduces three specialized loss functions—grayscale style loss, grayscale adversarial loss, and color reconstruction loss—to preserve key anime aesthetics while retaining color fidelity. Its network is intentionally lightweight, requiring fewer parameters and enabling faster processing than many other methods, and it can produce high-quality anime-style images that outperform other techniques in both speed and visuals.  
   URL: [Springer Link](https://link-springer-com.revproxy.brown.edu/content/pdf/10.1007/978-981-15-5547-0_18)
 
+- Another foundational work is the original **CartoonGAN** paper by Chen et al. (2018), which proposes a GAN-based model for turning real-world photos into cartoon-style images. The method emphasizes edge-promoting loss and unpaired training, achieving both stylistic transformation and content preservation.  
+  PDF: [CartoonGAN: Generative Adversarial Networks for Photo Cartoonization](https://openaccess.thecvf.com/content_cvpr_2018/papers/Chen_CartoonGAN_Generative_Adversarial_CVPR_2018_paper.pdf)
+
 - GitHub Repositories:
   - [CartoonGAN TensorFlow](https://github.com/mnicnc404/CartoonGan-tensorflow)
-  - [CartoonGAN by Tobias Sunderkiek](https://github.com/TobiasSunderkiek/cartoon-gan)
 
 ## Data
 **What data are you using (if any)?**
