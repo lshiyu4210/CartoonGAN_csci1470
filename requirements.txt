@@ -1,0 +1,7 @@
+kaggle
+torch
+torchvision
+opencv-python
+pillow
+pandas
+pycocotools
